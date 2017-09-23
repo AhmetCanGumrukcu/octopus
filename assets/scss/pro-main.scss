@@ -1,0 +1,43 @@
+@import "pro-settings.scss";
+
+#preloader{
+    position: fixed;
+    left: 0;top: 0;
+    z-index: 999999999999999;
+    width:100%;height:100%;
+    overflow: visible;
+    background:#fff url(../img/AjaxLoader.gif) no-repeat center center;  
+}
+
+a{
+	color:#fff;
+}
+
+p{
+	margin:0;
+}
+
+// Header
+
+header{
+	background:#5e89c6;
+	padding:1% 0;
+	color:#fff;
+
+	.small-menu{
+		font-size:12px;
+	}
+
+	.main-menu{
+		margin:20px 0 10px;
+		ul{
+			list-style:none;
+			margin:0;
+			padding:0;
+			li{
+				padding:0 5px;
+				float:left;
+			}
+		}
+	}
+}
