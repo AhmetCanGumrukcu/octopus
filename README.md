@@ -5,6 +5,6 @@ Some code
 ````
 
 ````
-new branch merge update
+master branch update
 ````
 ## Usage
